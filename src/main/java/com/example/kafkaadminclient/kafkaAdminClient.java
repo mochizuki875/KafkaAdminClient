@@ -44,7 +44,7 @@ public class kafkaAdminClient {
 	    Admin client = AdminClient.create(props);
 
 	    while(operation != 0 ) {
-        	System.out.println("操作を選んでください");
+        	System.out.println("Select an operation.");
         	System.out.println("[1] Get Topic List");
         	System.out.println("[2] Create Topics");
         	System.out.println("[3] Delete Topics");
